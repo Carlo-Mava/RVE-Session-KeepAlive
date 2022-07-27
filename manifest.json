@@ -1,0 +1,12 @@
+{
+    "name": "Regione del Veneto - KeepAlive",
+    "description": "Previene la caduta della sessione",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["alarms"],
+    "host_permissions": ["https://bur.regione.veneto.it/"]
+
+}
